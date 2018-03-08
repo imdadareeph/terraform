@@ -2,13 +2,13 @@
 
 configure terraform in aws instance EC2
 
-Major commands :
-ssh -i "privatekey.pem" ec2-user@ec2-XX-XX-XXX-XXX.compute-1.amazonaws.com
-sudo yum install wget git
-git version
-wget https://releases.hashicorp.com/terraform/0.11.3/terraform_0.11.3_linux_amd64.zip
-unzip terraform_0.11.3_linux_amd64.zip
-sudo mv terraform /usr/local/bin/
+##Major commands :
+* ssh -i "privatekey.pem" ec2-user@ec2-XX-XX-XXX-XXX.compute-1.amazonaws.com
+* sudo yum install wget git
+* git version
+* wget https://releases.hashicorp.com/terraform/0.11.3/terraform_0.11.3_linux_amd64.zip
+* unzip terraform_0.11.3_linux_amd64.zip
+* sudo mv terraform /usr/local/bin/
 
 ```javascript
 Imdads-Mackee:Desktop imdadareeph$ ssh -i "privatekey.pem" ec2-user@ec2-XX-XX-XXX-XXX.compute-1.amazonaws.com
