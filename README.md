@@ -110,4 +110,20 @@ terraform  terraform_0.11.3_linux_amd64.zip
 [ec2-user@ip-XXX-XX-XX-XXX ~]$ mv terraform /usr/local/bin/
 mv: cannot move 'terraform' to '/usr/local/bin/terraform': Permission denied
 [ec2-user@ip-XXX-XX-XX-XXX ~]$ sudo mv terraform /usr/local/bin/
+[ec2-user@ip-XXX-XX-XX-XXX ~]$ terraform version
+Terraform v0.11.3
+
+[ec2-user@ip-XXX-XX-XX-XXX ~]$ git clone https://github.com/imdadareeph/terraform.git
+Cloning into 'terraform'...
+remote: Counting objects: 18, done.
+remote: Compressing objects: 100% (18/18), done.
+remote: Total 18 (delta 6), reused 5 (delta 0), pack-reused 0
+Unpacking objects: 100% (18/18), done.
+[ec2-user@ip-XXX-XX-XX-XXX ~]$ ls
+terraform  terraform_0.11.3_linux_amd64.zip
+[ec2-user@ip-XXX-XX-XX-XXX ~]$ cd terraform
+[ec2-user@ip-XXX-XX-XX-XXX terraform]$ ls
+Chef_Script.sh  README.md  instance.tf  terraform.tfvars  variables.tf
+[ec2-user@ip-XXX-XX-XX-XXX terraform]$ terraform plan
+
 ```
