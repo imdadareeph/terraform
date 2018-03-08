@@ -10,7 +10,7 @@ wget https://releases.hashicorp.com/terraform/0.11.3/terraform_0.11.3_linux_amd6
 unzip terraform_0.11.3_linux_amd64.zip
 sudo mv terraform /usr/local/bin/
 
-
+```javascript
 Imdads-Mackee:Desktop imdadareeph$ ssh -i "privatekey.pem" ec2-user@ec2-XX-XX-XXX-XXX.compute-1.amazonaws.com
 Last login: Thu Mar  X XX:XX:XX 2018 from XX.XXX.XXX.XXX
 
@@ -110,4 +110,4 @@ terraform  terraform_0.11.3_linux_amd64.zip
 [ec2-user@ip-XXX-XX-XX-XXX ~]$ mv terraform /usr/local/bin/
 mv: cannot move 'terraform' to '/usr/local/bin/terraform': Permission denied
 [ec2-user@ip-XXX-XX-XX-XXX ~]$ sudo mv terraform /usr/local/bin/
-
+```
